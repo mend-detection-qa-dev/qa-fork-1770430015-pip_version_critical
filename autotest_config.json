@@ -72,10 +72,10 @@
                     "operator": "eq",
                     "value": "Trying version getter: PythonVersionFile"
                },
-               {
-                    "operator": "regex",
-                    "value": "Found Python version \\(3\\.11\\.0\\) for Pip project at \"/.*pip_version_critical.*\""
-               },
+                {
+                  "operator": "regex",
+                  "value": "Found Python version \\(3\\.11\\.0\\) for Pip project at .*pip_version_critical"
+                },
                {
                     "operator": "eq",
                     "value": "python version set to: 3.11.0"
